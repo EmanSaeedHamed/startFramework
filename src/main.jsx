@@ -10,6 +10,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const router = createBrowserRouter([
   {path: "/", element: < Home/>},
+  {path: "/", element: < Home/>},
   {path: "*", element: < NotFound/>}
 ])
 

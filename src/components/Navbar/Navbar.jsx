@@ -2,7 +2,7 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <>
-     <nav className="navbar navbar-expand-lg py-4">
+     <nav className="navbar fixed-top navbar-expand-lg py-4">
   <div className="container">
     <a className="navbar-brand" href="#">
       START FRAMEWORK

@@ -1,0 +1,28 @@
+.start-framework{
+    background-color: var(--secondary-bg-color);
+}
+img{
+    width: 15.625rem;
+}
+.start-framework h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.star-icon::after{
+    content: '';
+    background-color: #fff;
+    width: 5rem;
+    height: .25rem;
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+}
+.star-icon::before{
+    content: '';
+    background-color: #fff;
+    width: 5rem;
+    height: .25rem;
+    position: absolute;
+    top: 50%;
+    right: 1.4375rem;
+}

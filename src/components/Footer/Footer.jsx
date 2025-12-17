@@ -2,9 +2,9 @@ import './Footer.css';
 export default function Footer() {
   return (
     <>
-       <footer>
+       <footer className='py-5'>
          <div className="container">
-            <div className="row">
+            <div className="row row-gap-5 my-4">
                 <div className="col-md-4">
                     <div>
                         <h3>LOCATION</h3>
@@ -39,10 +39,10 @@ export default function Footer() {
                 </div>
             </div>
          </div>
-         <div className="footer-bottom">
-                <p className='pt-3'>Copyright © Your Website 2021</p>
-            </div>
        </footer>
+                <div className="footer-bottom">
+                <p className='pt-3 text-white text-center'>Copyright © Your Website 2021</p>
+            </div>
     </>
   )
 }
