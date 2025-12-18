@@ -1,6 +1,10 @@
 
 .navbar-expand-lg{
     background-color: var(--main-bg-color);
+    transition: padding 0.3s ease;
+}
+.navbar.scrolled{
+    padding: 0.5rem 0;
 }
 a.nav-link{
     color: #fff;
@@ -16,10 +20,6 @@ a.navbar-brand{
 a.nav-link:hover{
     color: #fff;
 }
-/* a.nav-link:focus{
-    color: #fff;
-    background-color: var(--secondary-bg-color);
-} */
 a.navbar-brand:hover{
     color: #fff;
 }

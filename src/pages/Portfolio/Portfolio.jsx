@@ -4,7 +4,6 @@ import PortfolioCard from "../../components/PortfolioCard/PortfolioCard"
 import profile1 from '../../assets/poert1.png'
 import profile2 from '../../assets/port2.png'
 import profile3 from '../../assets/port3.png'
-import './Portfolio.css'
 
 export default function Portfolio() {
   return (

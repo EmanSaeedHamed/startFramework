@@ -1,9 +1,20 @@
 import { Link, NavLink } from 'react-router'
+import { useState, useEffect } from 'react'
 import './Navbar.css'
 export default function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-     <nav className="navbar fixed-top navbar-expand-lg py-4">
+     <nav className={`navbar fixed-top navbar-expand-lg ${scrolled ? 'scrolled' : 'py-4'}`}>
   <div className="container">
     <Link className="navbar-brand" to="/">
       START FRAMEWORK
