@@ -2,3 +2,7 @@
     --main-bg-color: #2C3E50;
     --secondary-bg-color: #1ABC9C;
 }
+.active{
+        color: #fff !important;
+    background-color: var(--secondary-bg-color) !important;
+}

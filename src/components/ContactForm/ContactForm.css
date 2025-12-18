@@ -1,0 +1,19 @@
+.contact-form .form-label {
+    color: var(--secondary-bg-color);
+}
+.animate-label-before{
+    transform: translateY(80px);
+}
+.animate-label {
+    transform: translateY(0);
+    transition: transform 0.6s;
+}
+.contact-form .form-control:focus {
+    box-shadow: none;
+}
+.contact-form .btn {
+    background-color: var(--secondary-bg-color);
+}
+:not(.btn-check)+.btn:active {
+    background-color: var(--secondary-bg-color);
+}

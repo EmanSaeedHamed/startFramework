@@ -1,14 +1,11 @@
-.start-framework{
+.about-section{
     background-color: var(--secondary-bg-color);
 }
-img{
-    width: 15.625rem;
-}
-.start-framework h2{
+.about-section h2{
     font-size: 2.5rem;
     font-weight: 700;
 }
-.start-framework .star-icon::after{
+.about-section .star-icon::after{
     content: '';
     background-color: #fff;
     width: 5rem;
@@ -17,19 +14,18 @@ img{
     top: 50%;
     margin-left: 10px;
 }
-.start-framework .star-icon::before{
+.about-section .star-icon::before{
     content: '';
     background-color: #fff;
     width: 5rem;
     height: .25rem;
     position: absolute;
     top: 50%;
-    right: 1.4375rem;
+    right: 1.4375rem
 }
 
-
 @media screen and (max-width: 575px) {
-   .start-framework h2{
+   .about-section h2{
     font-size: 1.5rem;
    }
 

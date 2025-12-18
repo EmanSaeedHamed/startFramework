@@ -1,12 +1,13 @@
+import { Link, NavLink } from 'react-router'
 import './Navbar.css'
 export default function Navbar() {
   return (
     <>
      <nav className="navbar fixed-top navbar-expand-lg py-4">
   <div className="container">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="/">
       START FRAMEWORK
-    </a>
+    </Link>
     <button
       className="navbar-toggler"
       type="button"
@@ -21,19 +22,19 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item me-3">
-          <a className="nav-link rounded-3" aria-current="page" href="#">
+          <NavLink className="nav-link rounded-3" aria-current="page" to="/about">
             ABOUT
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item me-3">
-          <a className="nav-link rounded-3" href="#">
+          <NavLink className="nav-link rounded-3" to="/portfolio">
             PORTFOLIO
-          </a>
+          </NavLink>
         </li>
         <li className="nav-item me-3">
-          <a className="nav-link rounded-3" href="#">
+          <NavLink className="nav-link rounded-3" to="/contact">
             CONTACT
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>

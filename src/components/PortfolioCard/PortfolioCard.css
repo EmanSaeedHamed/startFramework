@@ -1,0 +1,26 @@
+.portfolio-card i{
+    font-size: 6rem;
+}
+.img-card-layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+}
+.img-card-layer:hover{
+    opacity: 1;
+    transition: 0.6s opacity;
+}
+.layer-full-img{
+    z-index: 999999;
+    position: fixed !important;
+    inset: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+
+@media screen and (min-width: 992px) {
+    .layer-full-img img{
+        width: 67% !important;
+    }
+}

@@ -16,13 +16,20 @@ a.navbar-brand{
 a.nav-link:hover{
     color: #fff;
 }
-a.nav-link:focus{
+/* a.nav-link:focus{
     color: #fff;
     background-color: var(--secondary-bg-color);
-}
+} */
 a.navbar-brand:hover{
     color: #fff;
 }
 a.navbar-brand:focus{
     color: #fff;
+}
+
+@media screen and (max-width: 575px) {
+   a.navbar-brand{
+    font-size: 1.5rem;
+   }
+
 }
