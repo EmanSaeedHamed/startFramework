@@ -1,5 +1,6 @@
 .portfolio-card i{
     font-size: 6rem;
+    font-weight: 900 !important;
 }
 .img-card-layer{
     background-color: #1abc9ce6;
